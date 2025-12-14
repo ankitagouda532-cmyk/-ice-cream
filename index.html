@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolScoops - Home</title>
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;   /* 🔥 removes all scrollbars */
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: rgba(255, 192, 203, 0.9);
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .hero {
+        height: calc(100vh - 80px); 
+        width: 100%;
+        background-image: url("oo.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        color: white;
+    }
+
+    .hero h2 {
+        font-style: italic;
+        text-shadow: 4px 4px 6px black;
+        font-family:"ALBERTUS";
+        font-size: 65px;
+        color:orangered;
+    }
+    P{
+        color:black;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20PX;
+    }
+    h1{
+        color: crimson;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CoolScoops Ice Cream</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="flavors.html">Flavors</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to CoolScoops</h2>
+    <p>The coolest and tastiest ice cream in town!</p>
+</section>
+
+</body>
+</html>

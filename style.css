@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff7f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff8fa3;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  margin: 15px 0;
+}
+h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: crimson;
+    }
+
+p, ul, form {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e63950;
+}
+body{
+    background-color:#f9b7f0;
+}
